@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'NIP-EES Core',
-  description: 'Minimal reference implementation of NIP-EES + NIP-17 1:1 DMs',
+  description: 'NIP-EES + NIP-17 Nostr client',
 };
 
 export default function RootLayout({

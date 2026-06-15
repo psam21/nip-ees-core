@@ -28,9 +28,8 @@ export default function HomePage() {
       <main className="min-h-screen flex flex-col items-center justify-center p-6 gap-6">
         <Header />
         <p className="text-gray-400 max-w-md text-center">
-          A minimal reference implementation of{' '}
-          <strong className="text-purple-400">NIP-EES</strong>: derive a
-          completely separate Nostr messaging identity from your nsec + a
+          <strong className="text-purple-400">NIP-EES</strong> derives a
+          completely separate Nostr messaging identity from your nsec and a
           per-context passphrase. Send NIP-17 gift-wrapped DMs with it.
           Same nsec + different passphrase = different identity.
         </p>

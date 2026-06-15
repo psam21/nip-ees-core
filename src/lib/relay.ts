@@ -5,7 +5,6 @@
  *   - publish: send to all relays in parallel, resolve on FIRST success
  *   - subscribe: long-lived subscription that streams matching events
  *
- * Production (chattr.buzz) uses 10 relays; this demo uses the same list.
  * Failure of any single relay is non-fatal — first ack wins.
  */
 import { SimplePool } from 'nostr-tools/pool';

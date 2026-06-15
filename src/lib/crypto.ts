@@ -1,7 +1,7 @@
 /**
  * NIP-EES Key Derivation
  *
- * Pipeline (matches the production implementation byte-for-byte):
+ * Pipeline:
  *   1. salt = SHA256(npubBytes || "nip-ees")
  *   2. passphraseHash = scrypt(passphrase, salt, N=2^19, r=8, p=1, dkLen=32)
  *   3. messagingPrivkey = HKDF-SHA256(nsecBytes, passphraseHash, "nip-ees-messaging", 32)
